@@ -4,15 +4,15 @@
 library(dplyr)
 library(tidyr)
 library(modeest)
-setwd("~/GitHub/kNN/kNN/PulmasCA")
+setwd("~/GitHub/kNN/PulmasCA")
 ##########################################
 # Data cleaning
 ##########################################
 
-# theCounties=c("plumas","shasta","lassen","tehama","butte","sierra","nevada","yuba")
-# for (theCounty in theCounties) {
+theCounties=c("plumas","shasta","lassen","tehama","butte","sierra","nevada","yuba")
+for (theCounty in theCounties) {
 
-theCounty="plumas"
+# theCounty="plumas"
 inname=paste("originalData/FIAData_",theCounty,"CA.csv",sep="")# name of the input csv data.
 df.raw=read.csv(inname,header=F)# Read the data frame that contains all the tree data measured in the county.
 colnames(df.raw)=c(
@@ -49,10 +49,16 @@ Mode <- function(x) {
 }
 
 domAge<-function(height,age){
-  ind=which.max(height)
-  domTreeHeight=height[ind]
-  domA=age[ind]
-  domA_less=domA
+  # ind=which.max(height)
+  # domTreeHeight=height[ind]
+  # domA=age[ind]
+  top20=top_frac(data.frame(height),0.4)
+  domTreeHeight=mean(top20$height)
+  ages=c()
+  for (topx in top20$height){
+    ages=c(ages,age[which(height==topx)])
+  }
+  domA=mean(ages,na.rm=TRUE)
   return(c(domTreeHeight,domA))
 }
 
@@ -200,7 +206,68 @@ for (row in 1:nrow(df.rec)) {
   }
 
 
+plot(df.rec$dominantTreeAge~df.rec$estDomSpAge)
+lines(seq(0,1000),seq(0,1000))
+df.rec$county=theCounty
 
+write.csv(df.rec,paste("summaryData/",theCounty,"_summary.csv",sep=""))
+
+}
+
+for (csv in list.files("summaryData")){
+  df=read.csv(paste("summaryData/",csv,sep=""))
+  if (exists("grandData")){
+    grandData=rbind(grandData,df)
+  }
+  else{
+    grandData=df
+  }
+}
+
+
+plot(grandData$dominantTreeAge~grandData$estDomSpAge)
+lines(seq(0,1000),seq(0,1000))
+
+xyplot(grandData$dominantTreeAge~grandData$estDomSpAge|grandData$county,
+       data=grandData,
+       main="Dominant species age by county",
+       xlab="Estimated dominant species age (Years)",
+       ylab="Observed dominant species age (Years)")
+xyplot(grandData$dominantTreeAge~grandData$estDomSpAge|grandData$owner,
+       data=grandData,
+       main="Dominant species age by ownership",
+       xlab="Estimated dominant species age (Years)",
+       ylab="Observed dominant species age (Years)")
+grandData.sub=grandData[grandData$priSpeciesName=="True fir"|grandData$priSpeciesName=="Douglas-fir"|grandData$priSpeciesName=="Ponderosa and Jeffrey pines",]
+
+xyplot(grandData.sub$dominantTreeAge~grandData.sub$estDomSpAge|grandData.sub$priSpeciesName,
+       data=grandData.sub,
+       main="Dominant species age by primary species",
+       xlab="Estimated dominant species age (Years)",
+       ylab="Observed dominant species age (Years)")
+smoothScatter(grandData$dominantTreeAge~grandData$estDomSpAge,
+              main="Dominant species age",
+              xlab="Estimated dominant species age (Years)",
+              ylab="Observed dominant species age (Years)")
+
+
+barchart(grandData$volPerAcre~grandData$owner,
+        )
+
+
+
+
+
+
+
+
+
+
+
+histogram(~volPerAcre|priSpeciesName,grandData,
+          main="Forest stand volume distribution by primary species (Cubic feet per acre)",
+          xlab="Volume per acre (cubic feet)",
+          ylab="Number of plots")
 
 ###########################################
 # extract the last year for each plot
@@ -355,3 +422,19 @@ plot(height,xlab="Age",main="KP1 model\n Species: Redwood",type="l")
 sampleHeight=df.rec$dominantTreeheight[df.rec$priSpeciesName=="Redwood"]
 sampleAge=df.rec$dominantTreeAge[df.rec$priSpeciesName=="Redwood"]
 points(sampleHeight~sampleAge)
+
+
+
+
+
+
+
+age=log(
+  1-
+    (1-exp(b1*a0))*
+    ((h-4.5)/(h0-4.5))
+  ^(1/(b2+(b3/R0)))
+  )/
+  b1
+
+(1-exp(b1*a0))*((h-4.5)/(h0-4.5))^(1/(b2+(b3/R0)))
