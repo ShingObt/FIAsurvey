@@ -107,3 +107,12 @@ CSV files that contains all the attributes are in `summaryData` directory.
 I do not fully investigate and discuss about the data I created as the scope of this work is to create the csv files. However I show some figures that illustrates the condition of the forest resources in this region. 
 
 ![by county](images/county.jpeg)
+
+![by volume per acre](images/vpa.jpeg)
+
+![by dominant speciec age](images/domspecage.jpeg)
+
+![by primary species](images/prispecies.jpeg)
+
+![by ownership](images/ownership.jpeg)
+
