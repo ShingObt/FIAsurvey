@@ -1,0 +1,22 @@
+code,grpname,model,b1,b2,b3,b4,note
+44,Cottonwood and aspen,,,,,,
+10,Douglas-fir,CR2,-0.01564,-6.26,38.98,,
+18,Engelmann and other spruces,,,,,,
+20,Incense-cedar,LG1,234.1,3.923,-1.237,,
+21,Lodgepole pine,SH2,0.3879,-1171,194.4,-0.3486,come from jeffery pine
+49,NA,,,,,,
+46,Oak,SH1,-6.455,-0.3725,,,
+47,Other western hardwoods,,,,,,
+24,Other western softwoods,,,,,,
+11,Ponderosa and Jeffrey pines,CR2,-0.01441,-5.777,36.85,,
+45,Red alder,SH1,-7.236,-0.7772,,,
+16,Redwood,KP1,1.089,-0.2131,203.4,,
+17,Sitka spruce,,,,,,
+14,Sugar pine,CR2,-0.01862,-9.153,54.31,,
+12,True fir,CR1,-0.03357,1.658,,,Grand fir model
+13,Western hemlock,,,,,,
+19,Western larch,,,,,,
+22,Western redcedar,,,,,,
+15,Western white pine,,,,,,
+48,Woodland hardwoods,,,,,,
+23,Woodland softwoods,,,,,,

@@ -1,0 +1,28 @@
+select
+    county.COUNTYNM as county, 
+    plot.CN as plotID,
+    plot.DESIGNCD as design,
+    cast(tree.CN as text) as treeID,
+    tree.INVYR as InvYear,
+    cond.OWNGRPCD as ownerCode,
+     REF_OWNGRPCD.MEANING as ownership, 
+    cond.SICOND as siteIndex,
+    /*pop_stratum.EXPNS as areaExpFactor,*/
+    tree.DIA as Diameter,
+    tree.SUBP as subplot,
+    tree.HT as H,
+    tree.VOLCFNET as cuftperAcre,
+    /*tree.countycd as FIPSCODE,*/
+    tree.TPA_UNADJ as nTreesPerAcre,
+    tree.BHAGE as BHAge, 
+    tree.TOTAGE as totalAge,
+    tree.SPGRPCD as speciesGroup,
+    ref_species_group.NAME as spcgrpname
+FROM tree 
+inner join cond on cond.PLT_CN=tree.PLT_CN/*Inner join cond table and tree table*/
+inner join plot on plot.CN=cond.plt_cn/*inner join plot table and cond table*/
+inner join county on county.COUNTYCD=plot.COUNTYCD
+inner join ref_species_group on ref_species_group.SPGRPCD=tree.SPGRPCD
+inner join REF_OWNGRPCD on REF_OWNGRPCD.OWNGRPCD=cond.ownGRPCD
+where tree.countycd=057/*select the plot data measured from Pulmas county*/
+and cond.SICOND>0

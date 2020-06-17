@@ -1,0 +1,71 @@
+"","plotID","lastInvYr","lastInvYrSD","priSpecies","secSpecies","priSpeciesName","secSpeciesName","owner","ownerCD","volPerAcre","SI","dominantTreeAge","dominantTreeheight"
+"49",22930220010497,2008,0,12,20,"True fir","Incense-cedar","Forest Service",10,19122.4222086611,64,NA,156
+"50",22930223010497,2008,0,10,47,"Douglas-fir","Other western hardwoods","Forest Service",10,12977.3328948124,69,NA,176
+"51",22930228010497,2008,0,12,20,"True fir","Incense-cedar","Private and Native American",40,4065.01027839242,48,NA,99
+"52",22930235010497,2008,0,12,21,"True fir","Lodgepole pine","Private and Native American",40,4978.68032853974,74,NA,122
+"53",22930252010497,2008,0,12,14,"True fir","Sugar pine","Forest Service",10,2527.95159229997,33,NA,75
+"54",22952991010497,2007,0,11,20,"Ponderosa and Jeffrey pines","Incense-cedar","Private and Native American",40,1981.99706986164,123,NA,134
+"55",22953350010497,2007,0,20,10,"Incense-cedar","Douglas-fir","Private and Native American",40,13539.6240202004,71,NA,117
+"56",22953360010497,2007,0,10,46,"Douglas-fir","Oak","Forest Service",10,12192.9088266544,56,NA,166
+"57",22953361010497,2007,0,12,14,"True fir","Sugar pine","Private and Native American",40,4646.77761456493,66,67,90
+"79",29394789010497,2008,0,11,46,"Ponderosa and Jeffrey pines","Oak","Private and Native American",40,5990.73101506916,70,NA,141
+"80",29880301010497,2009,0,46,11,"Oak","Ponderosa and Jeffrey pines","Private and Native American",40,2259.85042241401,122,NA,67
+"81",29880386010497,2009,0,14,11,"Sugar pine","Ponderosa and Jeffrey pines","Private and Native American",40,280.987809458066,53,NA,42
+"82",29880474010497,2009,0,10,14,"Douglas-fir","Sugar pine","Private and Native American",40,9133.7554975068,63,52,74
+"83",29880548010497,2009,0,14,10,"Sugar pine","Douglas-fir","Private and Native American",40,1964.62592276209,33,253,133
+"84",29880550010497,2009,0,12,NA,"True fir",NA,"Forest Service",10,9733.14805626977,36,NA,142
+"85",30762330020004,2012,0,11,NA,"Ponderosa and Jeffrey pines",NA,"Forest Service",10,1529.90241841998,114,NA,84
+"86",30762331020004,2012,0,21,NA,"Lodgepole pine",NA,"Forest Service",10,1679.31755752218,80,223,109
+"87",30762332020004,2012,0,12,21,"True fir","Lodgepole pine","Forest Service",10,6100.87808674396,72,56,102
+"88",30762435020004,2012,0,20,10,"Incense-cedar","Douglas-fir","Forest Service",10,2196.23971725109,32,NA,57
+"89",30762530020004,2012,0,46,11,"Oak","Ponderosa and Jeffrey pines","State and local government",30,1805.19505585073,132,NA,61
+"90",30762531020004,2012,0,11,14,"Ponderosa and Jeffrey pines","Sugar pine","Private and Native American",40,6996.32023388921,143,NA,154
+"91",40224618010497,2010,0,20,11,"Incense-cedar","Ponderosa and Jeffrey pines","Private and Native American",40,1621.80698285674,53,112,99
+"92",40224622010497,2010,0,10,46,"Douglas-fir","Oak","Forest Service",10,7592.57577080959,67,NA,129
+"93",40224624010497,2010,0,11,24,"Ponderosa and Jeffrey pines","Other western softwoods","Private and Native American",40,1229.41181439885,42,NA,83
+"94",40224626010497,2010,0,12,11,"True fir","Ponderosa and Jeffrey pines","Private and Native American",40,2074.16853022704,44,NA,100
+"95",40224629010497,2010,0,12,10,"True fir","Douglas-fir","Private and Native American",40,9591.04774219336,45,NA,151
+"96",44541009020004,2013,0,10,11,"Douglas-fir","Ponderosa and Jeffrey pines","Forest Service",10,4247.67465429402,73,NA,135
+"97",44541497020004,2013,0,12,11,"True fir","Ponderosa and Jeffrey pines","Forest Service",10,7683.87203270151,42,NA,127
+"98",44543301020004,2013,0,11,20,"Ponderosa and Jeffrey pines","Incense-cedar","Forest Service",10,8517.52304873948,83,NA,136
+"99",44543379020004,2013,0,11,NA,"Ponderosa and Jeffrey pines",NA,"Private and Native American",40,4331.63366413167,90,101,94
+"100",48202696010497,2011,0,21,15,"Lodgepole pine","Western white pine","Forest Service",10,1001.07883661429,71,NA,100
+"101",48202704010497,2011,0,11,20,"Ponderosa and Jeffrey pines","Incense-cedar","Private and Native American",40,167.54667345266,63,67,44
+"102",48203503010497,2011,0,11,NA,"Ponderosa and Jeffrey pines",NA,"Forest Service",10,1032.03510573104,89,NA,38
+"103",48203590010497,2011,0,20,10,"Incense-cedar","Douglas-fir","Private and Native American",40,5593.46772862441,85,NA,119
+"104",48204815010497,2011,0,21,12,"Lodgepole pine","True fir","Forest Service",10,9718.46913326836,83,NA,147
+"105",48205281010497,2011,0,11,10,"Ponderosa and Jeffrey pines","Douglas-fir","Forest Service",10,13141.0473001655,72,108,149
+"106",48205713010497,2011,0,20,12,"Incense-cedar","True fir","Private and Native American",40,4179.3818617459,82,97,97
+"107",216958848020004,2014,0,46,20,"Oak","Incense-cedar","Forest Service",10,2828.45249125777,72,NA,68
+"108",216959020020004,2014,0,46,11,"Oak","Ponderosa and Jeffrey pines","State and local government",30,600.87520306599,129,NA,54
+"109",216959281020004,2014,0,20,11,"Incense-cedar","Ponderosa and Jeffrey pines","Private and Native American",40,1119.90427296825,59,NA,47
+"110",216960326020004,2014,0,11,NA,"Ponderosa and Jeffrey pines",NA,"Forest Service",10,1457.89401840743,95,NA,125
+"111",216960361020004,2014,0,12,20,"True fir","Incense-cedar","State and local government",30,5384.84650257183,79,NA,97
+"112",216960477020004,2014,0,21,12,"Lodgepole pine","True fir","Private and Native American",40,4710.55721292648,60,162,87
+"113",216960585020004,2014,0,10,46,"Douglas-fir","Oak","Forest Service",10,6244.67934202628,73,52,88
+"114",216961306020004,2014,0,46,10,"Oak","Douglas-fir","Private and Native American",40,5234.46394081428,66,NA,75
+"115",273640898489998,2015,0,47,11,"Other western hardwoods","Ponderosa and Jeffrey pines","Other Federal",20,3096.72647331517,76,NA,76
+"116",273641344489998,2015,0,11,24,"Ponderosa and Jeffrey pines","Other western softwoods","Forest Service",10,1602.97279563666,59,183,96
+"117",273641512489998,2015,0,12,21,"True fir","Lodgepole pine","Forest Service",10,4613.3284024003,67,NA,110
+"118",273641790489998,2015,0,20,11,"Incense-cedar","Ponderosa and Jeffrey pines","Forest Service",10,2442.37375180078,68,71,59
+"119",273642570489998,2015,0,12,14,"True fir","Sugar pine","Forest Service",10,6756.08735582171,63,NA,115
+"120",273643093489998,2015,0,11,21,"Ponderosa and Jeffrey pines","Lodgepole pine","Private and Native American",40,999.902361429694,29,NA,87
+"121",345933355489998,2016,0,12,20,"True fir","Incense-cedar","Forest Service",10,10325.3151312265,82,246,207
+"122",345935454489998,2016,0,46,24,"Oak","Other western softwoods","Private and Native American",40,148.814740985818,119,NA,45
+"123",345935954489998,2016,0,11,46,"Ponderosa and Jeffrey pines","Oak","Private and Native American",40,5769.31961119128,160,72,153
+"124",345936037489998,2016,0,11,48,"Ponderosa and Jeffrey pines","Woodland hardwoods","Forest Service",10,672.077251358426,88,NA,99
+"125",345936428489998,2016,0,12,15,"True fir","Western white pine","Forest Service",10,1815.5423864318,24,NA,91
+"126",345936483489998,2016,0,20,12,"Incense-cedar","True fir","Forest Service",10,845.322710422784,29,53,23
+"127",412220652489998,2017,NA,46,NA,"Oak",NA,"Private and Native American",40,87.218475483858,112,NA,44
+"128",412220749489998,2017,0,11,20,"Ponderosa and Jeffrey pines","Incense-cedar","Private and Native American",40,2645.45449243442,123,NA,135
+"129",412221037489998,2017,0,46,24,"Oak","Other western softwoods","Private and Native American",40,795.04824913677,120,NA,45
+"130",412221433489998,2017,0,12,14,"True fir","Sugar pine","Private and Native American",40,6182.98356241223,66,87,99
+"131",412221899489998,2017,0,20,10,"Incense-cedar","Douglas-fir","Private and Native American",40,12879.4683875505,71,NA,121
+"132",412222636489998,2017,0,10,46,"Douglas-fir","Oak","Private and Native American",40,1856.05261029471,69,77,121
+"133",412223240489998,2017,0,10,46,"Douglas-fir","Oak","Forest Service",10,11617.8321282626,68,NA,124
+"134",484816476489998,2018,0,12,21,"True fir","Lodgepole pine","Private and Native American",40,5413.40960720844,73,NA,123
+"135",484816479489998,2018,0,12,20,"True fir","Incense-cedar","Private and Native American",40,3322.39567597345,37,NA,60
+"136",484816480489998,2018,0,10,47,"Douglas-fir","Other western hardwoods","Forest Service",10,14510.2870957154,73,130,180
+"137",484816481489998,2018,0,12,14,"True fir","Sugar pine","Forest Service",10,2616.56198442558,30,113,81
+"138",484816482489998,2018,0,46,11,"Oak","Ponderosa and Jeffrey pines","Private and Native American",40,431.6724372384,120,NA,39
+"139",484816485489998,2018,0,12,20,"True fir","Incense-cedar","Forest Service",10,20953.5997710041,65,NA,166

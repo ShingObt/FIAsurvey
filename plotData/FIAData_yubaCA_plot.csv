@@ -1,0 +1,25 @@
+,plotID,lastInvYr,lastInvYrSD,priSpecies,secSpecies,priSpeciesName,secSpeciesName,owner,ownerCD,volPerAcre,SI,dominantTreeAge,dominantTreeheight
+12,2.29E+13,2008,0,47,46,Other western hardwoods,Oak,Private and Native American,40,1143.052923,89,NA,61
+13,2.30E+13,2007,0,10,47,Douglas-fir,Other western hardwoods,Forest Service,10,11800.36926,71,151,162
+14,2.30E+13,2007,0,47,20,Other western hardwoods,Incense-cedar,State and local government,30,6272.490221,79,NA,71
+20,2.99E+13,2009,0,11,47,Ponderosa and Jeffrey pines,Other western hardwoods,Forest Service,10,10514.37125,169,NA,120
+21,2.99E+13,2009,0,47,10,Other western hardwoods,Douglas-fir,Forest Service,10,14021.59835,65,NA,36
+22,3.08E+13,2012,0,11,20,Ponderosa and Jeffrey pines,Incense-cedar,Private and Native American,40,2092.373144,83,77,120
+23,3.08E+13,2012,0,47,46,Other western hardwoods,Oak,Private and Native American,40,7180.031577,48,NA,102
+24,4.02E+13,2010,0,46,NA,Oak,NA,Private and Native American,40,197.1261639,112,NA,37
+25,4.02E+13,2010,0,47,11,Other western hardwoods,Ponderosa and Jeffrey pines,Forest Service,10,3573.505454,158,NA,64
+26,4.02E+13,2010,0,10,11,Douglas-fir,Ponderosa and Jeffrey pines,Forest Service,10,14804.40536,86,NA,163
+27,4.02E+13,2010,0,12,10,True fir,Douglas-fir,Private and Native American,40,8483.702596,69,NA,152
+28,4.45E+13,2013,0,10,20,Douglas-fir,Incense-cedar,Forest Service,10,7342.91975,83,NA,149
+29,4.82E+13,2011,0,47,10,Other western hardwoods,Douglas-fir,Private and Native American,40,11615.26617,79,NA,92
+30,4.82E+13,2011,0,47,10,Other western hardwoods,Douglas-fir,Private and Native American,40,2578.437839,88,NA,143
+31,2.17E+14,2014,0,10,47,Douglas-fir,Other western hardwoods,Forest Service,10,6842.72984,108,107,144
+32,2.17E+14,2014,0,46,24,Oak,Other western softwoods,Private and Native American,40,634.8001209,104,NA,45
+33,2.74E+14,2015,0,10,20,Douglas-fir,Incense-cedar,Private and Native American,40,3800.327219,91,67,135
+34,3.46E+14,2016,0,46,24,Oak,Other western softwoods,State and local government,30,868.8464216,90,NA,44
+35,3.46E+14,2016,0,47,10,Other western hardwoods,Douglas-fir,Forest Service,10,6533.031489,75,NA,22
+36,4.12E+14,2017,0,46,24,Oak,Other western softwoods,Private and Native American,40,1457.321098,143,NA,46
+37,4.12E+14,2017,0,47,20,Other western hardwoods,Incense-cedar,State and local government,30,802.0127196,113,NA,73
+38,4.12E+14,2017,0,10,47,Douglas-fir,Other western hardwoods,Forest Service,10,12075.32063,71,161,166
+39,4.85E+14,2018,0,46,NA,Oak,NA,Private and Native American,40,1465.558698,81,NA,49
+40,4.85E+14,2018,0,47,20,Other western hardwoods,Incense-cedar,Private and Native American,40,2260.976058,74,NA,62
